@@ -1,0 +1,31 @@
+@media screen and (max-width: 1919px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
+
+.main {
+  overflow: auto;
+  background-color: var(--surface-e);
+  padding: 2rem;
+}
+
+.p-menubar {
+  border-radius: 0;
+}

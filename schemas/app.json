@@ -1,0 +1,23 @@
+{
+  "type": "widget",
+  "name": "@zhuroff/melodymap-vue-login",
+  "props": {
+    "loginProp": "login value"
+  },
+  "children": [
+    {
+      "type": "widget",
+      "name": "@zhuroff/melodymap-react-navbar",
+      "props": {
+        "navProp": "nav value"
+      }
+    },
+    {
+      "type": "widget",
+      "name": "@zhuroff/melodymap-react-player",
+      "props": {
+        "playerProp": "player value"
+      }
+    }
+  ]
+}
