@@ -64,6 +64,7 @@ dist
 # Editor directories and files
 .idea
 .vscode
+.npmrc
 *.suo
 *.ntvs*
 *.njsproj
