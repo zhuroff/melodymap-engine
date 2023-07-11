@@ -4,7 +4,8 @@
     "src/zhuroff-melodymap-engine.ts"
   ],
   "compilerOptions": {
-    "declarationDir": "dist"
+    "declarationDir": "dist",
+    "skipLibCheck": true
   },
   "include": [
     "src/**/*"
